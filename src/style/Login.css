@@ -1,0 +1,22 @@
+.login-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login-logo {
+    max-width: 640px;
+    margin: 10rem auto 0;
+    image-rendering: -moz-crisp-edges;
+}
+
+.login-button {
+    display: flex;
+    margin: 1rem auto 0;
+    background-color: #3a6ea5;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

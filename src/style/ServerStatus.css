@@ -1,0 +1,23 @@
+.dashboard-server-status-box {
+    margin-top: 1rem;
+    background: #1f1f2e;
+    padding: 1rem;
+    border-radius: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: #29293d;
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+}

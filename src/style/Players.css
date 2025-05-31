@@ -1,0 +1,149 @@
+.players-panel {
+    background: #1f1f2e;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.panel-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.players-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.players-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.players-table th,
+.players-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.players-table td:first-child,
+.players-table th:first-child {
+    white-space: nowrap;
+    width: 2rem;
+    max-width: 200px;
+}
+
+.players-table td:nth-child(2),
+.players-table th:nth-child(2) {
+    white-space: nowrap;
+    width: 1rem;
+    max-width: 200px;
+}
+
+.players-table td:nth-child(3),
+.players-table th:nth-child(3) {
+    white-space: nowrap;
+    width: 15rem;
+    max-width: 200px;
+}
+.players-table td:nth-child(4),
+.players-table th:nth-child(4) {
+    white-space: nowrap;
+    width: 10rem;
+    max-width: 200px;
+}
+
+.action-button {
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.action-button.kick {
+    background-color: #ff6464;
+    color: white;
+}
+
+.action-button.mute {
+    background-color: #f4c542;
+    color: black;
+}
+
+.action-button.ban {
+    background-color: #c2185b;
+    color: white;
+}
+
+.action-button.gag {
+    background-color: #f29647;
+    color: black;
+}
+
+.list-box {
+    margin-top: 1rem;
+    background: #29293d;
+    padding: 1rem;
+    border-radius: 8px;
+    max-height: 1080px;
+    overflow-y: auto;
+}
+
+.bulk-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.selected-row {
+    background-color: rgba(76, 94, 255, 0.1);
+}
+
+.role-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.role-pub {
+    background-color: #5a5f66; /* dull steel gray */
+}
+
+.role-e {
+    background-color: #3ba55d; /* muted forest green */
+}
+
+.role-eg {
+    background-color: #3ba55d; /* same muted green */
+}
+
+.role-ego {
+    background-color: #3a6ea5; /* toned-down navy blue */
+}
+
+.role-manager {
+    background-color: #d66a6a; /* muted brick red */
+}
+
+.role-senior-manager {
+    background-color: #8a3e3e; /* dark muted crimson */
+}
+
+.role-community-manager {
+    background-color: #a96db0; /* dusty lavender */
+}
+
+.role-event-coordinator {
+    background-color: #d1b75c; /* dull gold / olive yellow */
+}

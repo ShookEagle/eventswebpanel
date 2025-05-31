@@ -1,0 +1,33 @@
+.log-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.log-box {
+    margin-top: 1rem;
+    background: #29293d;
+    padding: 1rem;
+    border-radius: 8px;
+    max-height: 1080px;
+    overflow-y: auto;
+}
+
+.log-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.log-box li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+    color: #ccc;
+}
+
+.dashboard-log-panel {
+    flex: 1;
+    background-color: #1f1f2e; /* Dark panel */
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    height: fit-content;
+}

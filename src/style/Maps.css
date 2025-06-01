@@ -1,0 +1,43 @@
+.maps-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.maps-table th,
+.maps-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.maps-table td:first-child,
+.maps-table th:first-child {
+    white-space: nowrap;
+    width: 15rem;
+    max-width: 200px;
+}
+
+.maps-table td:nth-child(3),
+.maps-table th:nth-child(3) {
+    justify-content: end;
+}
+
+.action-button.delete {
+    background-color: #ff6464;
+    color: white;
+}
+
+.action-button.edit {
+    background-color: #f4c542;
+    color: black;
+}
+
+.action-button.group {
+    background-color: #3ba55d;
+    color: white;
+}
+
+.action-button.rename {
+    background-color: #3a6ea5;
+    color: white;
+}

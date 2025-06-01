@@ -62,7 +62,7 @@ export function PromptModalProvider({ children }) {
                             }}
                         />
                         <div className="modal-actions">
-                            <button className="modal-button kick" onClick={submit}>Save</button>
+                            <button className="modal-button confirm" onClick={submit}>Confirm</button>
                             <button className="modal-button cancel" onClick={() => close()}>Cancel</button>
                         </div>
                     </div>

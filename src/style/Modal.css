@@ -47,6 +47,7 @@
     color: white;
 }
 
+.modal-button.confirm,
 .modal-button.save {
     background-color: #3ba55d;
 }

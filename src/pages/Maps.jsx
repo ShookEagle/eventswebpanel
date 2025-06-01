@@ -9,7 +9,6 @@ import EditMapGroupModal from '../components/EditMapGroupModal.jsx';
 
 export default function MapsPage() {
     const [mapGroups, setMapGroups] = useState({});
-    const [selectedGroup, setSelectedGroup] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
     const [editTarget, setEditTarget] = useState(null);
     const { confirm } = useConfirmModal();

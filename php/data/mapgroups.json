@@ -1,0 +1,1656 @@
+{
+    "Active": [
+        {
+            "name": "de_ancient",
+            "workshopId": ""
+        },
+        {
+            "name": "de_anubis",
+            "workshopId": ""
+        },
+        {
+            "name": "de_inferno",
+            "workshopId": ""
+        },
+        {
+            "name": "de_mirage",
+            "workshopId": ""
+        },
+        {
+            "name": "de_nuke",
+            "workshopId": ""
+        },
+        {
+            "name": "de_dust2",
+            "workshopId": ""
+        },
+        {
+            "name": "de_vertigo",
+            "workshopId": ""
+        }
+    ],
+    "Competitive": [
+        {
+            "name": "cs_italy",
+            "workshopId": ""
+        },
+        {
+            "name": "cs_office",
+            "workshopId": ""
+        },
+        {
+            "name": "de_vertigo",
+            "workshopId": ""
+        },
+        {
+            "name": "de_ancient",
+            "workshopId": ""
+        },
+        {
+            "name": "de_anubis",
+            "workshopId": ""
+        },
+        {
+            "name": "de_dust2",
+            "workshopId": ""
+        },
+        {
+            "name": "de_inferno",
+            "workshopId": ""
+        },
+        {
+            "name": "de_mirage",
+            "workshopId": ""
+        },
+        {
+            "name": "de_nuke",
+            "workshopId": ""
+        },
+        {
+            "name": "de_overpass",
+            "workshopId": ""
+        },
+        {
+            "name": "de_train",
+            "workshopId": "3070284539"
+        },
+        {
+            "name": "de_canals",
+            "workshopId": "3070598534"
+        },
+        {
+            "name": "de_agency",
+            "workshopId": "3070584943"
+        },
+        {
+            "name": "de_assembly",
+            "workshopId": "3071005299"
+        },
+        {
+            "name": "de_cbble",
+            "workshopId": "3070212801"
+        },
+        {
+            "name": "cs_assault",
+            "workshopId": "3070594412"
+        },
+        {
+            "name": "de_cache",
+            "workshopId": "3070244931"
+        },
+        {
+            "name": "de_pipeline",
+            "workshopId": "3079872050"
+        },
+        {
+            "name": "de_biome",
+            "workshopId": "3075706807"
+        },
+        {
+            "name": "mp_raid",
+            "workshopId": "3070346180"
+        },
+        {
+            "name": "de_mutiny",
+            "workshopId": "3070766070"
+        },
+        {
+            "name": "de_ruins_d_prefab",
+            "workshopId": "3072352643"
+        },
+        {
+            "name": "cs_militia",
+            "workshopId": "3089953774"
+        },
+        {
+            "name": "de_aztec",
+            "workshopId": "3070960099"
+        },
+        {
+            "name": "de_akiba",
+            "workshopId": "3108513658"
+        }
+    ],
+    "Wingman": [
+        {
+            "name": "cs_italy",
+            "workshopId": ""
+        },
+        {
+            "name": "cs_office",
+            "workshopId": ""
+        },
+        {
+            "name": "de_vertigo",
+            "workshopId": ""
+        },
+        {
+            "name": "de_ancient",
+            "workshopId": ""
+        },
+        {
+            "name": "de_anubis",
+            "workshopId": ""
+        },
+        {
+            "name": "de_dust2",
+            "workshopId": ""
+        },
+        {
+            "name": "de_inferno",
+            "workshopId": ""
+        },
+        {
+            "name": "de_mirage",
+            "workshopId": ""
+        },
+        {
+            "name": "de_nuke",
+            "workshopId": ""
+        },
+        {
+            "name": "de_overpass",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_shoots",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_baggage",
+            "workshopId": ""
+        },
+        {
+            "name": "gd_rialto",
+            "workshopId": "3085490518"
+        },
+        {
+            "name": "de_safehouse",
+            "workshopId": "3070550406"
+        },
+        {
+            "name": "de_lake",
+            "workshopId": "3070563536"
+        },
+        {
+            "name": "de_bank",
+            "workshopId": "3070581293"
+        },
+        {
+            "name": "de_shortdust",
+            "workshopId": "3070612859"
+        },
+        {
+            "name": "de_assembly",
+            "workshopId": "3071005299"
+        },
+        {
+            "name": "de_cbble",
+            "workshopId": "3070212801"
+        },
+        {
+            "name": "de_cache",
+            "workshopId": "3070244931"
+        },
+        {
+            "name": "de_pipeline",
+            "workshopId": "3079872050"
+        },
+        {
+            "name": "de_biome",
+            "workshopId": "3075706807"
+        },
+        {
+            "name": "mp_raid",
+            "workshopId": "3070346180"
+        },
+        {
+            "name": "de_mutiny",
+            "workshopId": "3070766070"
+        },
+        {
+            "name": "cs_assault",
+            "workshopId": "3070594412"
+        },
+        {
+            "name": "de_ruins_d_prefab",
+            "workshopId": "3072352643"
+        }
+    ],
+    "Deathmatch": [
+        {
+            "name": "cs_italy",
+            "workshopId": ""
+        },
+        {
+            "name": "cs_office",
+            "workshopId": ""
+        },
+        {
+            "name": "de_vertigo",
+            "workshopId": ""
+        },
+        {
+            "name": "de_ancient",
+            "workshopId": ""
+        },
+        {
+            "name": "de_anubis",
+            "workshopId": ""
+        },
+        {
+            "name": "de_dust2",
+            "workshopId": ""
+        },
+        {
+            "name": "de_inferno",
+            "workshopId": ""
+        },
+        {
+            "name": "de_mirage",
+            "workshopId": ""
+        },
+        {
+            "name": "de_nuke",
+            "workshopId": ""
+        },
+        {
+            "name": "de_overpass",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_shoots",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_baggage",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_lunacy",
+            "workshopId": "3070560242"
+        },
+        {
+            "name": "ar_monastery",
+            "workshopId": "3070547153"
+        },
+        {
+            "name": "gd_rialto",
+            "workshopId": "3085490518"
+        },
+        {
+            "name": "de_safehouse",
+            "workshopId": "3070550406"
+        },
+        {
+            "name": "de_lake",
+            "workshopId": "3070563536"
+        },
+        {
+            "name": "de_bank",
+            "workshopId": "3070581293"
+        },
+        {
+            "name": "de_shortdust",
+            "workshopId": "3070612859"
+        },
+        {
+            "name": "fy_pool_day",
+            "workshopId": "3070923343"
+        },
+        {
+            "name": "fy_iceworld",
+            "workshopId": "3070238628"
+        },
+        {
+            "name": "daymare",
+            "workshopId": "3072640420"
+        },
+        {
+            "name": "aim_theorem",
+            "workshopId": "3070348309"
+        },
+        {
+            "name": "de_assembly",
+            "workshopId": "3071005299"
+        },
+        {
+            "name": "de_cbble",
+            "workshopId": "3070212801"
+        },
+        {
+            "name": "de_cache",
+            "workshopId": "3070244931"
+        },
+        {
+            "name": "de_pipeline",
+            "workshopId": "3079872050"
+        },
+        {
+            "name": "de_biome",
+            "workshopId": "3075706807"
+        },
+        {
+            "name": "dm_desk",
+            "workshopId": "3077599381"
+        },
+        {
+            "name": "fun_bounce",
+            "workshopId": "3088183343"
+        },
+        {
+            "name": "1v1aim_map_longdustversion_d",
+            "workshopId": "3082605693"
+        },
+        {
+            "name": "ar_churches_s2r",
+            "workshopId": "3070291913"
+        },
+        {
+            "name": "mcdonalds",
+            "workshopId": "3134466699"
+        },
+        {
+            "name": "aim_ag_texture_city_advanced",
+            "workshopId": "3082113929"
+        },
+        {
+            "name": "traningoutside",
+            "workshopId": "3080973179"
+        },
+        {
+            "name": "shipment_version_1_0",
+            "workshopId": "3086555291"
+        },
+        {
+            "name": "aim_ag_texture2",
+            "workshopId": "3074961197"
+        },
+        {
+            "name": "aim_ag_texture_jungle",
+            "workshopId": "3095778105"
+        },
+        {
+            "name": "cs2_bloodstrike",
+            "workshopId": "3071890065"
+        },
+        {
+            "name": "gg_simpsons_vs_flanders_v2",
+            "workshopId": "3109232789"
+        },
+        {
+            "name": "de_akiba",
+            "workshopId": "3108513658"
+        },
+        {
+            "name": "cs_facingworlds-99",
+            "workshopId": "3112806723"
+        }
+    ],
+    "Gun Game": [
+        {
+            "name": "cs_italy",
+            "workshopId": ""
+        },
+        {
+            "name": "cs_office",
+            "workshopId": ""
+        },
+        {
+            "name": "de_vertigo",
+            "workshopId": ""
+        },
+        {
+            "name": "de_ancient",
+            "workshopId": ""
+        },
+        {
+            "name": "de_anubis",
+            "workshopId": ""
+        },
+        {
+            "name": "de_dust2",
+            "workshopId": ""
+        },
+        {
+            "name": "de_inferno",
+            "workshopId": ""
+        },
+        {
+            "name": "de_mirage",
+            "workshopId": ""
+        },
+        {
+            "name": "de_nuke",
+            "workshopId": ""
+        },
+        {
+            "name": "de_overpass",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_shoots",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_baggage",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_lunacy",
+            "workshopId": "3070560242"
+        },
+        {
+            "name": "ar_monastery",
+            "workshopId": "3070547153"
+        },
+        {
+            "name": "gd_rialto",
+            "workshopId": "3085490518"
+        },
+        {
+            "name": "de_safehouse",
+            "workshopId": "3070550406"
+        },
+        {
+            "name": "de_lake",
+            "workshopId": "3070563536"
+        },
+        {
+            "name": "de_bank",
+            "workshopId": "3070581293"
+        },
+        {
+            "name": "de_shortdust",
+            "workshopId": "3070612859"
+        },
+        {
+            "name": "fy_pool_day",
+            "workshopId": "3070923343"
+        },
+        {
+            "name": "fy_iceworld",
+            "workshopId": "3070238628"
+        },
+        {
+            "name": "daymare",
+            "workshopId": "3072640420"
+        },
+        {
+            "name": "aim_theorem",
+            "workshopId": "3070348309"
+        },
+        {
+            "name": "de_assembly",
+            "workshopId": "3071005299"
+        },
+        {
+            "name": "de_cbble",
+            "workshopId": "3070212801"
+        },
+        {
+            "name": "de_cache",
+            "workshopId": "3070244931"
+        },
+        {
+            "name": "de_pipeline",
+            "workshopId": "3079872050"
+        },
+        {
+            "name": "de_biome",
+            "workshopId": "3075706807"
+        },
+        {
+            "name": "dm_desk",
+            "workshopId": "3077599381"
+        },
+        {
+            "name": "fun_bounce",
+            "workshopId": "3088183343"
+        },
+        {
+            "name": "1v1aim_map_longdustversion_d",
+            "workshopId": "3082605693"
+        },
+        {
+            "name": "ar_churches_s2r",
+            "workshopId": "3070291913"
+        },
+        {
+            "name": "mcdonalds",
+            "workshopId": "3134466699"
+        },
+        {
+            "name": "aim_ag_texture_city_advanced",
+            "workshopId": "3082113929"
+        },
+        {
+            "name": "traningoutside",
+            "workshopId": "3080973179"
+        },
+        {
+            "name": "shipment_version_1_0",
+            "workshopId": "3086555291"
+        },
+        {
+            "name": "aim_ag_texture2",
+            "workshopId": "3074961197"
+        },
+        {
+            "name": "aim_ag_texture_jungle",
+            "workshopId": "3095778105"
+        },
+        {
+            "name": "cs2_bloodstrike",
+            "workshopId": "3071890065"
+        },
+        {
+            "name": "gg_simpsons_vs_flanders_v2",
+            "workshopId": "3109232789"
+        },
+        {
+            "name": "de_akiba",
+            "workshopId": "3108513658"
+        },
+        {
+            "name": "cs_facingworlds-99",
+            "workshopId": "3112806723"
+        }
+    ],
+    "1v1": [
+        {
+            "name": "1v1_redline_multiarena",
+            "workshopId": "3139172262"
+        }
+    ],
+    "Awp Only": [
+        {
+            "name": "awp_bhop_rocket",
+            "workshopId": "3142070597"
+        },
+        {
+            "name": "awp_surf_summer_cs2",
+            "workshopId": "3081829228"
+        },
+        {
+            "name": "awp_tabletop",
+            "workshopId": "3175901430"
+        },
+        {
+            "name": "awp_creek",
+            "workshopId": "3081154235"
+        },
+        {
+            "name": "awp_smalltemple",
+            "workshopId": "2256327285"
+        },
+        {
+            "name": "awp_heights",
+            "workshopId": "3187699950"
+        },
+        {
+            "name": "awp_museum",
+            "workshopId": "3147942004"
+        },
+        {
+            "name": "awp_gulag",
+            "workshopId": "3234949468"
+        },
+        {
+            "name": "awp_milkyway",
+            "workshopId": "3232093157"
+        },
+        {
+            "name": "awp_minecraft_castle",
+            "workshopId": "3109027085"
+        },
+        {
+            "name": "awp_lego2",
+            "workshopId": "3077655898"
+        },
+        {
+            "name": "awp_lego2_carton",
+            "workshopId": "3210314247"
+        },
+        {
+            "name": "awp_lego2_winter",
+            "workshopId": "3088944650"
+        },
+        {
+            "name": "awp_india",
+            "workshopId": "3070290869"
+        },
+        {
+            "name": "awp_lego_3d",
+            "workshopId": "3240327667"
+        },
+        {
+            "name": "awp_heights",
+            "workshopId": "3187699950"
+        },
+        {
+            "name": "awp_simpsons_street",
+            "workshopId": "3176702668"
+        }
+    ],
+    "Course": [
+        {
+            "name": "mg_100traps",
+            "workshopId": "3198747928"
+        },
+        {
+            "name": "mg_savetheisland",
+            "workshopId": "3239475921"
+        },
+        {
+            "name": "mg_lego_course_2",
+            "workshopId": "3202752274"
+        },
+        {
+            "name": "mg_balistic_course",
+            "workshopId": "3164692527"
+        },
+        {
+            "name": "mg_cypher_cs2",
+            "workshopId": "3200157057"
+        },
+        {
+            "name": "mg_circle_course_v3",
+            "workshopId": "3070434475"
+        },
+        {
+            "name": "mg_sonic_course_v2",
+            "workshopId": "3070452642"
+        },
+        {
+            "name": "mg_saw_v64_cs2",
+            "workshopId": "3106085501"
+        },
+        {
+            "name": "mg_ruin_course",
+            "workshopId": "3165539530"
+        },
+        {
+            "name": "mg_sonic_islands_v4",
+            "workshopId": "3166488259"
+        },
+        {
+            "name": "mg_skygrass_balkanstar",
+            "workshopId": "3161554251"
+        },
+        {
+            "name": "mg_acrophobia_run_v2",
+            "workshopId": "3070463620"
+        },
+        {
+            "name": "mg_qube_course",
+            "workshopId": "3129272566"
+        },
+        {
+            "name": "mg_bob4",
+            "workshopId": "3214686410"
+        },
+        {
+            "name": "mg_toxic_course_v2",
+            "workshopId": "3070462770"
+        },
+        {
+            "name": "mg_minecraft_adventure",
+            "workshopId": "3166464513"
+        },
+        {
+            "name": "mg_metro_course_v2",
+            "workshopId": "3070463151"
+        },
+        {
+            "name": "mg_metal_course_v3",
+            "workshopId": "3070464208"
+        },
+        {
+            "name": "mg_sky_realm_v3",
+            "workshopId": "3070451616"
+        },
+        {
+            "name": "mg_mdxkr_course_v1",
+            "workshopId": "2743167305"
+        },
+        {
+            "name": "mg_last_light_v3",
+            "workshopId": "3070458707"
+        },
+        {
+            "name": "mg_nxr_course_v2",
+            "workshopId": "3070455191"
+        },
+        {
+            "name": "mg_lego_course_v2",
+            "workshopId": "3070448153"
+        },
+        {
+            "name": "mg_alley_course_v2",
+            "workshopId": "3070455802"
+        },
+        {
+            "name": "mg_kegs_course",
+            "workshopId": "3206261435"
+        },
+        {
+            "name": "mg_glave_course_v2",
+            "workshopId": "3070445185"
+        },
+        {
+            "name": "mg_simpsons_course_v2",
+            "workshopId": "3070447697"
+        }
+    ],
+    "Deathrun": [
+        {
+            "name": "deathrun_playground",
+            "workshopId": "3164611860"
+        },
+        {
+            "name": "deathrun_civilization",
+            "workshopId": "3188021118"
+        },
+        {
+            "name": "deathrun_iceworld_cs2",
+            "workshopId": "3083325292"
+        },
+        {
+            "name": "deathrun_neon",
+            "workshopId": "3121646965"
+        },
+        {
+            "name": "deahtrun_source_cube",
+            "workshopId": "3070920602"
+        },
+        {
+            "name": "deahtrun_minecraft_snow",
+            "workshopId": "3087572822"
+        },
+        {
+            "name": "deathrun_cartoon",
+            "workshopId": "3134889370"
+        },
+        {
+            "name": "deathrun_wraith",
+            "workshopId": "3088106480"
+        },
+        {
+            "name": "deathrun_castlerun",
+            "workshopId": "3169207723"
+        }
+    ],
+    "Hide and Seek": [
+        {
+            "name": "hns_arctic_vault",
+            "workshopId": "3153530766"
+        },
+        {
+            "name": "hns_depot",
+            "workshopId": "3142354975"
+        },
+        {
+            "name": "hns_freddy_fazbears",
+            "workshopId": "3150746597"
+        },
+        {
+            "name": "hns_seektown",
+            "workshopId": "3074479691"
+        },
+        {
+            "name": "hns_center_city",
+            "workshopId": "3245249456"
+        },
+        {
+            "name": "hns_inside_pyramid",
+            "workshopId": "3216213823"
+        },
+        {
+            "name": "hns_inner_city",
+            "workshopId": "3210358859"
+        },
+        {
+            "name": "hns_big_city",
+            "workshopId": "3209711351"
+        },
+        {
+            "name": "hns_inferno_s2",
+            "workshopId": "3097563690"
+        },
+        {
+            "name": "hns_vertigo",
+            "workshopId": "3254008718"
+        },
+        {
+            "name": "hns_putin_vs_trollface",
+            "workshopId": "3255966930"
+        },
+        {
+            "name": "hns_lake",
+            "workshopId": "3071094345"
+        },
+        {
+            "name": "hns_winterday",
+            "workshopId": "3208241300"
+        },
+        {
+            "name": "hns_lego_remake",
+            "workshopId": "3122367230"
+        },
+        {
+            "name": "hns_sandstone",
+            "workshopId": "3153006472"
+        },
+        {
+            "name": "hns_fear_house",
+            "workshopId": "3223413039"
+        },
+        {
+            "name": "hns_japanese_street",
+            "workshopId": "3239990532"
+        }
+    ],
+    "Kreedz": [
+        {
+            "name": "kz_only_up",
+            "workshopId": "3074758439"
+        },
+        {
+            "name": "kz_psp",
+            "workshopId": "3024998968"
+        },
+        {
+            "name": "kz_hub_singleplayer",
+            "workshopId": "3070220367"
+        },
+        {
+            "name": "kz_grotto",
+            "workshopId": "3121168339"
+        },
+        {
+            "name": "kz_checkmate",
+            "workshopId": "3070194623"
+        },
+        {
+            "name": "kz_panda",
+            "workshopId": "400818612"
+        },
+        {
+            "name": "kz_ehcivec_final",
+            "workshopId": "3082213334"
+        },
+        {
+            "name": "kz_phamous",
+            "workshopId": "3104579274"
+        },
+        {
+            "name": "kz_igneous",
+            "workshopId": "3102712799"
+        },
+        {
+            "name": "kz_victoria",
+            "workshopId": "3086304337"
+        }
+    ],
+    "Minigames": [
+        {
+            "name": "mg_lego_multigames",
+            "workshopId": "3097973183"
+        },
+        {
+            "name": "mg_skeet_multigames_v7",
+            "workshopId": "3082120895"
+        },
+        {
+            "name": "mg_legospace_multigames",
+            "workshopId": "3188024686"
+        },
+        {
+            "name": "mg_thc_lego_multigames",
+            "workshopId": "3218692982"
+        },
+        {
+            "name": "mg_n64_goldeneye",
+            "workshopId": "3095601524"
+        },
+        {
+            "name": "mg_swag_multigames_v7",
+            "workshopId": "3101960156"
+        },
+        {
+            "name": "mg_devine_multigames",
+            "workshopId": "3111582979"
+        },
+        {
+            "name": "mg_wl_multigames",
+            "workshopId": "3156615586"
+        },
+        {
+            "name": "mg_01Minecraftminigame",
+            "workshopId": "3141424006"
+        },
+        {
+            "name": "mg_pudding_multigames",
+            "workshopId": "3242033080"
+        }
+    ],
+    "Scoutz Knivez": [
+        {
+            "name": "ar_shoots",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_dizzy",
+            "workshopId": ""
+        },
+        {
+            "name": "de_lake",
+            "workshopId": ""
+        },
+        {
+            "name": "de_safehouse",
+            "workshopId": ""
+        },
+        {
+            "name": "ar_lunacy",
+            "workshopId": ""
+        },
+        {
+            "name": "scoutzknivez_random_gm_cs2",
+            "workshopId": "3106527136"
+        },
+        {
+            "name": "scoutzknivez_pure",
+            "workshopId": "3073929825"
+        },
+        {
+            "name": "scoutz_skylands2_rc1",
+            "workshopId": "3162212495"
+        },
+        {
+            "name": "scoutzknivez_legacy",
+            "workshopId": "3150679341"
+        },
+        {
+            "name": "scoutzknivez_redux",
+            "workshopId": "3124524650"
+        },
+        {
+            "name": "scoutzknivez_se",
+            "workshopId": "3120526105"
+        }
+    ],
+    "Zombie Escape": [
+        {
+            "name": "ze_frostdrake_tower_p",
+            "workshopId": "3120465300"
+        },
+        {
+            "name": "ze_backrroms_deathbed",
+            "workshopId": "3174524746"
+        },
+        {
+            "name": "ze_s_a_m",
+            "workshopId": "3217227843"
+        },
+        {
+            "name": "ze_requiem",
+            "workshopId": "3134550710"
+        },
+        {
+            "name": "ze_pools",
+            "workshopId": "3075014275"
+        },
+        {
+            "name": "ze_chronus",
+            "workshopId": "3091942084"
+        },
+        {
+            "name": "ze_obf_npst",
+            "workshopId": "3229383490"
+        },
+        {
+            "name": "ze_loom",
+            "workshopId": "3214940342"
+        },
+        {
+            "name": "ze_ffxiv_reisen_temple",
+            "workshopId": "3220221743"
+        },
+        {
+            "name": "ze_obj_rampage_v1",
+            "workshopId": "3159812985"
+        },
+        {
+            "name": "ze_starwars_v2fix",
+            "workshopId": "3123260164"
+        },
+        {
+            "name": "ze_aware",
+            "workshopId": "3251593033"
+        },
+        {
+            "name": "ze_omochix_cs2",
+            "workshopId": "3238552190"
+        },
+        {
+            "name": "ze_purification_a1",
+            "workshopId": "3128279930"
+        },
+        {
+            "name": "ze_celestial_ops",
+            "workshopId": "3150912938"
+        },
+        {
+            "name": "ze_waterpark",
+            "workshopId": "3145775550"
+        },
+        {
+            "name": "ze_bathroom",
+            "workshopId": "3250974096"
+        },
+        {
+            "name": "ze_sandstorm",
+            "workshopId": "3148296430"
+        },
+        {
+            "name": "ze_arcana_heart",
+            "workshopId": "3248842358"
+        },
+        {
+            "name": "ze_boatescape_ultimate",
+            "workshopId": "3217056098"
+        },
+        {
+            "name": "ze_rataouille",
+            "workshopId": "3258064134"
+        },
+        {
+            "name": "ze_ffvii_fake_reactor",
+            "workshopId": "3136003731"
+        },
+        {
+            "name": "ze_popkart",
+            "workshopId": "3247766438"
+        },
+        {
+            "name": "ze_ultra_ungent_a2_cs2",
+            "workshopId": "3111525416"
+        },
+        {
+            "name": "ze_goobers_basement",
+            "workshopId": "3159840177"
+        },
+        {
+            "name": "ze_obf_filth",
+            "workshopId": "3160547491"
+        },
+        {
+            "name": "ze_offliner",
+            "workshopId": "3255547370"
+        },
+        {
+            "name": "ze_clockwork",
+            "workshopId": "3248464092"
+        },
+        {
+            "name": "ze_sens",
+            "workshopId": "3231216655"
+        },
+        {
+            "name": "ze_forsaken_temple",
+            "workshopId": "3247462748"
+        },
+        {
+            "name": "ze_eternal_journey",
+            "workshopId": "3225822266"
+        },
+        {
+            "name": "ze_anzalone",
+            "workshopId": "3113561170"
+        },
+        {
+            "name": "ze_legends_of_dawn",
+            "workshopId": "3244020906"
+        },
+        {
+            "name": "ze_jurassicpark",
+            "workshopId": "3083543662"
+        },
+        {
+            "name": "ze_pokemon_kanto_v1",
+            "workshopId": "3100100976"
+        },
+        {
+            "name": "ze_elevator_escape",
+            "workshopId": "3135918205"
+        },
+        {
+            "name": "ze_atix_apocalypse",
+            "workshopId": "3087543130"
+        },
+        {
+            "name": "ze_oneiros",
+            "workshopId": "3111583269"
+        },
+        {
+            "name": "ze_minecraft_sakura",
+            "workshopId": "3184013959"
+        },
+        {
+            "name": "ze_minecraft_p",
+            "workshopId": "3215084604"
+        },
+        {
+            "name": "ze_otakuroom",
+            "workshopId": "3128321209"
+        },
+        {
+            "name": "ze_dystopia",
+            "workshopId": "3159658783"
+        },
+        {
+            "name": "ze_luciddreams_cs2",
+            "workshopId": "3177491488"
+        }
+    ],
+    "Bhop": [
+        {
+            "name": "bhop_emevaelx3",
+            "workshopId": "3070665979"
+        },
+        {
+            "name": "bhop_drainage",
+            "workshopId": "3172855488"
+        },
+        {
+            "name": "bhop_dunedash",
+            "workshopId": "3118806244"
+        },
+        {
+            "name": "bhop_moonlight",
+            "workshopId": "3076544885"
+        },
+        {
+            "name": "bhop_nubia",
+            "workshopId": "3109833435"
+        },
+        {
+            "name": "bhop_colour",
+            "workshopId": "3071726325"
+        },
+        {
+            "name": "bhop_surf_qvo_v2",
+            "workshopId": "3144925633"
+        },
+        {
+            "name": "bhop_arcturus",
+            "workshopId": "3088973190"
+        },
+        {
+            "name": "bhop_ancientcanal",
+            "workshopId": "3123452538"
+        },
+        {
+            "name": "bhop_kz_deadcore",
+            "workshopId": "3079982220"
+        },
+        {
+            "name": "bhop_quack",
+            "workshopId": "3141309610"
+        },
+        {
+            "name": "bhop_masyunya",
+            "workshopId": "3097960903"
+        },
+        {
+            "name": "bhop_vaporwave",
+            "workshopId": "3247326328"
+        },
+        {
+            "name": "bhop_internetclub",
+            "workshopId": "3103286752"
+        },
+        {
+            "name": "bhop_inui",
+            "workshopId": "3243210449"
+        },
+        {
+            "name": "bhop_rushb",
+            "workshopId": "1598613474"
+        },
+        {
+            "name": "bhop_bobop",
+            "workshopId": "3101765983"
+        },
+        {
+            "name": "bhop_blue_shade",
+            "workshopId": "3104379928"
+        },
+        {
+            "name": "bhop_nira",
+            "workshopId": "3096649903"
+        },
+        {
+            "name": "bhop_water",
+            "workshopId": "3070288532"
+        },
+        {
+            "name": "bhop_64_speedrun",
+            "workshopId": "3114012728"
+        },
+        {
+            "name": "bhop_cherryblossom",
+            "workshopId": "3082038560"
+        },
+        {
+            "name": "bhop_eazy_v2",
+            "workshopId": "3081481596"
+        },
+        {
+            "name": "bhop_lunti",
+            "workshopId": "3109417361"
+        },
+        {
+            "name": "bhop_huni",
+            "workshopId": "3152170149"
+        },
+        {
+            "name": "bhop_oxom",
+            "workshopId": "3142053238"
+        },
+        {
+            "name": "bhop_xulazu",
+            "workshopId": "3103289668"
+        },
+        {
+            "name": "bhop_leaf",
+            "workshopId": "3082035041"
+        },
+        {
+            "name": "bhop_woodenxd",
+            "workshopId": "3098907976"
+        },
+        {
+            "name": "bhop_fur",
+            "workshopId": "3072307280"
+        },
+        {
+            "name": "bhop_aso_wood",
+            "workshopId": "3087827316"
+        },
+        {
+            "name": "bhop_koreiskoe",
+            "workshopId": "3100057866"
+        },
+        {
+            "name": "bhop_japan",
+            "workshopId": "3208753449"
+        },
+        {
+            "name": "bhop_kore",
+            "workshopId": "3141944428"
+        },
+        {
+            "name": "bhop_coma",
+            "workshopId": "3105540958"
+        },
+        {
+            "name": "bhop_hilton",
+            "workshopId": "3073065218"
+        },
+        {
+            "name": "bhop_inline",
+            "workshopId": "3099514856"
+        },
+        {
+            "name": "bhop_symphony",
+            "workshopId": "3240618381"
+        },
+        {
+            "name": "bhop_rippcpie",
+            "workshopId": "3109454970"
+        },
+        {
+            "name": "bhop_gottagofast",
+            "workshopId": "3096641929"
+        },
+        {
+            "name": "bhop_dreamworld",
+            "workshopId": "3078155262"
+        },
+        {
+            "name": "bhop_inch",
+            "workshopId": "3076733461"
+        },
+        {
+            "name": "bhop_lego_rnm_r",
+            "workshopId": "3099876385"
+        },
+        {
+            "name": "bhop_teti_r",
+            "workshopId": "3099754930"
+        },
+        {
+            "name": "bhop_gloom",
+            "workshopId": "3094633618"
+        }
+    ],
+    "Surf": [
+        {
+            "name": "surf_utopia_njv",
+            "workshopId": "3073875025"
+        },
+        {
+            "name": "surf_kitsune",
+            "workshopId": "3076153623"
+        },
+        {
+            "name": "surf_1win",
+            "workshopId": "3231028283"
+        },
+        {
+            "name": "surf_boreas",
+            "workshopId": "3133346713"
+        },
+        {
+            "name": "surf_beginner",
+            "workshopId": "3070321829"
+        },
+        {
+            "name": "surf_nyx",
+            "workshopId": "3129698096"
+        },
+        {
+            "name": "surf_evo",
+            "workshopId": "3075725935"
+        },
+        {
+            "name": "surf_deathstar",
+            "workshopId": "3080544577"
+        },
+        {
+            "name": "surf_mesa_revo",
+            "workshopId": "3076980482"
+        },
+        {
+            "name": "surf_atrium",
+            "workshopId": "3130141240"
+        },
+        {
+            "name": "surf_me",
+            "workshopId": "3248211716"
+        },
+        {
+            "name": "surf_inui",
+            "workshopId": "3255525511"
+        },
+        {
+            "name": "surf_aircontrol_ksf",
+            "workshopId": "3230699916"
+        },
+        {
+            "name": "surf_ing",
+            "workshopId": "3124210799"
+        },
+        {
+            "name": "surf_genesis",
+            "workshopId": "3253243697"
+        },
+        {
+            "name": "surf_galaxy_easy",
+            "workshopId": "3095216872"
+        },
+        {
+            "name": "surf_sparks",
+            "workshopId": "3224375193"
+        },
+        {
+            "name": "surf_aquaflow",
+            "workshopId": "3255589335"
+        },
+        {
+            "name": "surf_astra",
+            "workshopId": "3165517928"
+        },
+        {
+            "name": "surf_ace",
+            "workshopId": "3088413071"
+        },
+        {
+            "name": "surf_rookie",
+            "workshopId": "3082548297"
+        },
+        {
+            "name": "surf_klue",
+            "workshopId": "3205472654"
+        },
+        {
+            "name": "surf_frostedge",
+            "workshopId": "3120455026"
+        },
+        {
+            "name": "surf_gleam",
+            "workshopId": "3124208103"
+        },
+        {
+            "name": "surf_momentum",
+            "workshopId": "3117160100"
+        },
+        {
+            "name": "surf_benevolent",
+            "workshopId": "3098972556"
+        },
+        {
+            "name": "surf_volvic",
+            "workshopId": "3143583805"
+        },
+        {
+            "name": "surf_cyberwave",
+            "workshopId": "3167714768"
+        },
+        {
+            "name": "surf_skipalot",
+            "workshopId": "3143608161"
+        },
+        {
+            "name": "surf_trazhtec",
+            "workshopId": "3099609523"
+        },
+        {
+            "name": "surf_palm",
+            "workshopId": "3226467978"
+        },
+        {
+            "name": "surf_slob",
+            "workshopId": "3212207205"
+        },
+        {
+            "name": "surf_chasm",
+            "workshopId": "3165925249"
+        },
+        {
+            "name": "surf_juturna",
+            "workshopId": "3155961809"
+        },
+        {
+            "name": "surf_tranquil",
+            "workshopId": "3131555986"
+        },
+        {
+            "name": "surf_hades",
+            "workshopId": "3165927091"
+        },
+        {
+            "name": "surf_mesa_aether",
+            "workshopId": "3125360522"
+        },
+        {
+            "name": "surf_hyzer",
+            "workshopId": "3118603496"
+        },
+        {
+            "name": "surf_longreach",
+            "workshopId": "3105967738"
+        },
+        {
+            "name": "surf_lockdown",
+            "workshopId": "3124212820"
+        },
+        {
+            "name": "surf_technique",
+            "workshopId": "3205490672"
+        },
+        {
+            "name": "surf_quickie",
+            "workshopId": "3165930325"
+        },
+        {
+            "name": "surf_teho",
+            "workshopId": "3124224128"
+        },
+        {
+            "name": "surf_cannonball",
+            "workshopId": "3152119098"
+        },
+        {
+            "name": "surf_sippysip",
+            "workshopId": "3246776437"
+        },
+        {
+            "name": "surf_elysium",
+            "workshopId": "3147764666"
+        }
+    ],
+    "Combat Surf": [
+        {
+            "name": "surf_castle",
+            "workshopId": "3128904941"
+        },
+        {
+            "name": "surf_aero_violence",
+            "workshopId": "3085314904"
+        },
+        {
+            "name": "surf_ny_bigloop",
+            "workshopId": "3084349344"
+        },
+        {
+            "name": "surf_air_arena",
+            "workshopId": "3074712760"
+        },
+        {
+            "name": "surf_ski_2",
+            "workshopId": "3079877518"
+        },
+        {
+            "name": "surf_4fun_2016",
+            "workshopId": "3233388051"
+        },
+        {
+            "name": "surf_ski_3_nova",
+            "workshopId": "3070274984"
+        },
+        {
+            "name": "surf_dust2_2015",
+            "workshopId": "3085542481"
+        },
+        {
+            "name": "surf_intrepid",
+            "workshopId": "3074951067"
+        },
+        {
+            "name": "surf_greatriver_xdre4m",
+            "workshopId": "3070280215"
+        },
+        {
+            "name": "surf_skyscraper",
+            "workshopId": "3084059372"
+        }
+    ],
+    "Mirror Maps": [
+        {
+            "name": "de_mirage_mirror",
+            "workshopId": "3112468244"
+        },
+        {
+            "name": "de_dust2_mirror",
+            "workshopId": "3117367319"
+        },
+        {
+            "name": "de_vertigo_mirror",
+            "workshopId": "3235541259"
+        },
+        {
+            "name": "de_nuke_mirror",
+            "workshopId": "3145028641"
+        },
+        {
+            "name": "de_inferno_mirror",
+            "workshopId": "3110463075"
+        },
+        {
+            "name": "de_overpass_mirror",
+            "workshopId": "3114471649"
+        }
+    ],
+    "Tag": [
+        {
+            "name": "hns_freeway",
+            "workshopId": "3100974576"
+        },
+        {
+            "name": "hns_flowtown_v1",
+            "workshopId": "3104421311"
+        },
+        {
+            "name": "hns_bbcity",
+            "workshopId": "3155014834"
+        },
+        {
+            "name": "hns_jukecity",
+            "workshopId": "3132514950"
+        },
+        {
+            "name": "hns_backyard",
+            "workshopId": "3100095412"
+        },
+        {
+            "name": "hns_rooftops",
+            "workshopId": "3131591239"
+        },
+        {
+            "name": "hns_townsquare",
+            "workshopId": "3104048227"
+        },
+        {
+            "name": "hns_vista",
+            "workshopId": "3255585571"
+        },
+        {
+            "name": "hns_tyo_docg",
+            "workshopId": "3209399593"
+        }
+    ]
+}

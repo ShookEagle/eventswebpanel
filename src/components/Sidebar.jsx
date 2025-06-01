@@ -1,11 +1,12 @@
 import '../style/Sidebar.css';
-import { Home, Users, Settings, LogOut } from 'lucide-react';
+import { Home, Users, Settings, LogOut, MapPlus  } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 const navItems = [
     { name: 'Home', icon: <Home />, href: '/' },
     { name: 'Users', icon: <Users />, href: '/players' },
+    { name: 'Maps', icon: <MapPlus />, href: '/maps' },
     { name: 'Settings', icon: <Settings />, href: '/' },
 ];
 
@@ -13,7 +14,6 @@ export default function Sidebar() {
     const { setUser } = useAuth();
 
     function handleLogout() {
-
         fetch(`${import.meta.env.VITE_API_URL}/logout.php`, {
             credentials: 'include',
         }).then(() => {

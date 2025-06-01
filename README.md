@@ -26,11 +26,11 @@ Supports Steam login, game mode control, settings overrides, and admin tools.
 ### 🧑‍🤝‍🧑 Players Panel
 - [ ] Live list of connected players
 - [ ] View name, SteamID, team, status
-- [ ] [Coordinator/Manager] Slay, slap, team swap, kick, godmode
+- [ ] Slay, slap, team swap, kick, godmode
 
 ### 🗺️ Maps & Mapgroups
-- [ ] View current map and map rotation
-- [ ] [Manager only] Add/remove maps from map groups
+- [x] View current map and map rotation
+- [x] [Manager only] Add/remove maps from map groups
 - [ ] [Coordinator] Place for suggesting maps to be added by review from Manager
 - [ ] Workshop link integration
 - [ ] Map history / usage tracking
@@ -44,15 +44,11 @@ Supports Steam login, game mode control, settings overrides, and admin tools.
 
 ## 🛡️ Admin Features
 
-### 🔐 Role Management
-- [ ] View all staff members and roles
-- [ ] [Manager only] Promote/demote users via MAUL integration
-
 ### 📊 Audit Log
 - [ ] Track mode changes, commands, bans, and actions
 - [ ] Include timestamps, SteamID, and actor
 
-### ⚙️ Server Control (Manager Only)
+### ⚙️ Server Control
 - [ ] Start/Stop/Restart server
 - [ ] Raw RCON command input
 - [ ] Console output viewer
@@ -72,7 +68,6 @@ Supports Steam login, game mode control, settings overrides, and admin tools.
 
 - [ ] Export/import configs as JSON
 - [ ] Discord webhook for server events
-- [ ] Built-in command tester
 - [ ] Light/Dark mode toggle
 - [ ] Mobile responsive design
 

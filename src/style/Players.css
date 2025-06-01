@@ -16,13 +16,6 @@
     border-collapse: collapse;
 }
 
-.players-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-}
-
 .players-table th,
 .players-table td {
     text-align: left;

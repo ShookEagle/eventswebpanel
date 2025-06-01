@@ -15,6 +15,7 @@ const fakePlayers = [
 
 export default function PlayersPage() {
     const [selected, setSelected] = useState([]);
+    const [searchTerm, setSearchTerm] = useState('');
 
     const togglePlayer = (id) => {
         setSelected(prev =>
@@ -52,10 +53,24 @@ export default function PlayersPage() {
             <div style={{ marginLeft: '90px', backgroundColor: '#121217', minHeight: '100vh', color: 'white' }}>
                 <div className="dashboard-layout">
                     <div className="dashboard-main">
-                        <div className="players-header">
-                            <h1 className="dashboard-title"><b>Players List</b></h1>
+                        <h1 className="dashboard-title"><b>Players List</b></h1>
 
-                            <div className="bulk-actions">
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            marginTop: '10px',
+                            flexWrap: 'wrap'
+                        }}>
+                            <input
+                                type="text"
+                                className="search-input"
+                                placeholder="Search players..."
+                                value={searchTerm}
+                                onChange={(e) => setSearchTerm(e.target.value)}
+                            />
+
+                            <div className="bulk-actions" style={{ display: 'flex', gap: '10px' }}>
                                 <button className="action-button kick" onClick={kick}>
                                     {selected.length === 0 ? 'Kick All' : 'Kick Selected'}
                                 </button>
@@ -69,7 +84,11 @@ export default function PlayersPage() {
                         </div>
 
                         <PlayersListAll
-                            players={fakePlayers}
+                            players={fakePlayers.filter(p =>
+                                p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                p.steamId.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                p.role.toLowerCase().includes(searchTerm.toLowerCase())
+                            )}
                             selected={selected}
                             togglePlayer={togglePlayer}
                         />

@@ -16,3 +16,32 @@
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    background-color: #1e1e2f;
+    color: white;
+    border: 1px solid #333;
+    padding: 6px 10px;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.search-input::placeholder {
+    color: #888;
+}
+
+.list-box {
+    margin-top: 1rem;
+    background: #29293d;
+    padding: 1rem;
+    border-radius: 8px;
+    max-height: 1080px;
+    overflow-y: auto;
+}

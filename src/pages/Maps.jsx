@@ -138,12 +138,19 @@ export default function MapsPage() {
                     groupName={editTarget}
                     maps={mapGroups[editTarget] || []}
                     onSave={(updatedMaps) => {
+                        const cleaned = updatedMaps.filter(
+                            map => map.name.trim() !== ''
+                        ).map(map => ({
+                            name: map.name.trim(),
+                            workshopId: map.workshopId.replace(/\D/g, '') // remove non-digits
+                        }));
+
                         const updated = { ...mapGroups };
-                        updated[editTarget] = updatedMaps;
+                        updated[editTarget] = cleaned;
                         setMapGroups(updated);
                         setEditTarget(null);
                         showToast("Map group updated!");
-                        saveAll(updated)
+                        saveAll(updated);
                     }}
                     onCancel={() => setEditTarget(null)}
                 />

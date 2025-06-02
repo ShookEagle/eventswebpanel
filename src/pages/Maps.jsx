@@ -42,13 +42,21 @@ export default function MapsPage() {
                 const updated = { ...mapGroups };
                 delete updated[group];
                 setMapGroups(updated);
-                saveAll(updated)
                 showToast("Map Group deleted.");
+                saveChanges(updated)
             }
         })
     };
 
-    const saveAll = (groups = mapGroups) => {
+    const saveAll = () => {
+        fetch('http://localhost:8000/api/mapgroups.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(mapGroups)
+        }).then(() => showToast("Map Groups successfully Saved", "success"));
+    };
+
+    const saveChanges = (groups = mapGroups) => {
         fetch('http://localhost:8000/api/mapgroups.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -79,7 +87,7 @@ export default function MapsPage() {
         delete updated[oldName];
         setMapGroups(updated);
         showToast("Map group renamed.");
-        saveAll(updated)
+        saveChanges(updated)
     };
 
     return (
@@ -150,7 +158,7 @@ export default function MapsPage() {
                         setMapGroups(updated);
                         setEditTarget(null);
                         showToast("Map group updated!");
-                        saveAll(updated);
+                        saveChanges(updated);
                     }}
                     onCancel={() => setEditTarget(null)}
                 />

@@ -35,9 +35,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    // Expecting one top-level key (pack name)
-    $name = array_key_first($data);
-    $pack = $data[$name] ?? null;
+    $packs = [];
+
+    foreach ($data as $name => $pack) {
+        if (!is_array($pack)) continue;
+
+        $description = $pack['description'] ?? '';
+        $onCmds = is_array($pack['onExecCmds']) ? $pack['onExecCmds'] : [];
+        $offCmds = is_array($pack['offExecCmds']) ? $pack['offExecCmds'] : [];
+
+        $packs[$name] = [
+            'description' => $description,
+            'onExecCmds' => $onCmds,
+            'offExecCmds' => $offCmds
+        ];
+    }
+
+    file_put_contents($packsPath, json_encode($packs, JSON_PRETTY_PRINT));
 
     if (!is_string($name) || !$pack || !is_array($pack)) {
         http_response_code(400);

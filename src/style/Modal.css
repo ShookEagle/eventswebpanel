@@ -130,3 +130,36 @@ body.modal-open {
     filter: brightness(0.9);
     transition: filter 0.2s ease;
 }
+
+.modal-tab {
+    padding: 6px 12px;
+    background-color: #1e1e24;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.modal-tab:hover {
+    background-color: #2a2a34;
+}
+
+.modal-tab.active {
+    background-color: #3a3a4a;
+    border-color: #555;
+    color: #fff;
+    font-weight: bold;
+}
+
+.modal-textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #1e1e24;
+    border: 1px solid #333;
+    color: #eee;
+    font-family: monospace;
+    font-size: 14px;
+    box-sizing: border-box;
+}

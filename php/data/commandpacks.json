@@ -1,12 +1,216 @@
 {
-  "Autobhop": {
-    "description": "Enables bunny hopping and removes stamina penalties.",
-    "onExecCmds": ["sv_autobunnyhopping 1", "sv_staminajumpcost 0" ],
-    "offExecCmds": ["sv_autobunnyhopping 0", "sv_staminajumpcost 0" ]
-  },
-  "Test1": {
-    "description": "Test for dev purposes",
-    "onExecCmds": ["echo test_on"],
-    "offExec": ["echo test_off"]
-  }
+    "Autobhop": {
+        "description": "Enables bunny hopping and removes stamina penalties.",
+        "onExecCmds": [
+            "sv_autobunnyhopping 1",
+            "sv_staminajumpcost 0"
+        ],
+        "offExecCmds": [
+            "sv_autobunnyhopping 0",
+            "sv_staminajumpcost 0"
+        ]
+    },
+    "Movement Unlocker": {
+        "description": "Removes most movement restrictions",
+        "onExecCmds": [
+            "sv_accelerate 6.5",
+            "sv_accelerate_use_weapon_speed 0",
+            "sv_airaccelerate 120",
+            "sv_air_max_wishspeed 30",
+            "sv_enablebunnyhopping 1",
+            "sv_friction 5",
+            "sv_gravity 800",
+            "sv_jump_impulse 301.993377",
+            "sv_ladder_scale_speed 1",
+            "sv_ledge_mantle_helper 0",
+            "sv_maxspeed 320",
+            "sv_maxvelocity 2000",
+            "sv_staminajumpcost 0",
+            "sv_staminalandcost 0",
+            "sv_staminamax 0",
+            "sv_staminarecoveryrate 120",
+            "sv_standable_normal 0.7",
+            "sv_timebetweenducks 0",
+            "sv_walkable_normal 0.7",
+            "sv_wateraccelerate 10",
+            "sv_water_movespeed_multiplier 0.8",
+            "sv_water_swim_mode 0",
+            "sv_weapon_encumbrance_per_item 0",
+            "sv_weapon_encumbrance_scale 0",
+            "sv_clamp_unsafe_velocities 0"
+        ],
+        "offExecCmds": [
+            "sv_accelerate 5.5",
+            "sv_accelerate_use_weapon_speed 1",
+            "sv_airaccelerate 12",
+            "sv_air_max_wishspeed 30",
+            "sv_enablebunnyhopping 0",
+            "sv_friction 5.2",
+            "sv_gravity 800",
+            "sv_jump_impulse 301.993378",
+            "sv_ladder_scale_speed 0.78",
+            "sv_ledge_mantle_helper 0",
+            "sv_maxspeed 320",
+            "sv_maxvelocity 3500",
+            "sv_staminajumpcost 0.080",
+            "sv_staminalandcost 0.050",
+            "sv_staminamax 80",
+            "sv_staminarecoveryrate 60",
+            "sv_standable_normal 0.7",
+            "sv_timebetweenducks 0.4",
+            "sv_walkable_normal 0.7",
+            "sv_wateraccelerate 10",
+            "sv_water_movespeed_multiplier 0.8",
+            "sv_water_swim_mode 0",
+            "sv_weapon_encumbrance_per_item 0.85",
+            "sv_weapon_encumbrance_scale 0",
+            "sv_clamp_unsafe_velocities 1"
+        ]
+    },
+    "All Talk": {
+        "description": "Allows all players to talk to and hear one another (spec, opposing team, etc.)",
+        "onExecCmds": [
+            "sv_alltalk 1",
+            "sv_deadtalk 1",
+            "sv_full_alltalk 1",
+            "sv_talk_enemy_dead 1",
+            "sv_talk_enemy_living 1",
+            "sv_allchat 1",
+            "sv_spec_hear 1",
+            "sv_voiceenable 1",
+            "tv_relayvoice 1"
+        ],
+        "offExecCmds": [
+            "sv_alltalk 0",
+            "sv_deadtalk 1",
+            "sv_full_alltalk 0",
+            "sv_talk_enemy_dead 0",
+            "sv_talk_enemy_living 0",
+            "sv_allchat 1",
+            "sv_spec_hear 1",
+            "sv_voiceenable 1",
+            "tv_relayvoice 1"
+        ]
+    },
+    "Bots": {
+        "description": "Toggles the presence of bots in the game.",
+        "onExecCmds": [
+            "bot_quota 10",
+            "bot_join_after_player 1"
+        ],
+        "offExecCmds": [
+            "bot_kick",
+            "bot_quota 0",
+            "bot_join_after_player 0",
+            "bot_kick"
+        ]
+    },
+    "Buy Menu": {
+        "description": "Toggles the ability to buy weapons.",
+        "onExecCmds": [
+            "mp_buy_during_immunity 1",
+            "mp_buy_anywhere 1",
+            "mp_buytime 1",
+            "mp_give_player_c4 1",
+            "mp_playercashawards 1",
+            "mp_teamcashawards 1",
+            "mp_weapons_allow_zeus 1",
+            "mp_buy_allow_grenades 1",
+            "mp_max_armor 1",
+            "mp_maxmoney 1",
+            "mp_startmoney 1",
+            "mp_promoted_item_enabled 1"
+        ],
+        "offExecCmds": [
+            "mp_buy_during_immunity 0",
+            "mp_buy_anywhere 0",
+            "mp_buytime 0",
+            "mp_give_player_c4 0",
+            "mp_playercashawards 0",
+            "mp_teamcashawards 0",
+            "mp_weapons_allow_zeus 0",
+            "mp_buy_allow_grenades 0",
+            "mp_max_armor 0",
+            "mp_maxmoney 0",
+            "mp_startmoney 0",
+            "mp_promoted_item_enabled 0"
+        ]
+    },
+    "Course": {
+        "description": "Toggle the settings for course maps (Intended for in minigames mode to switch between course\/multigames without reloading modes)",
+        "onExecCmds": [
+            "mp_solid_teammates 0",
+            "sv_holiday_mode 0",
+            "sv_party_mode 0",
+            "mp_autoteambalance 0",
+            "mp_humanteam ct",
+            "sv_disable_radar 1",
+            "sv_ignoregrenaderadio 1",
+            "mp_buytime 0",
+            "mp_free_armor 2",
+            "mp_buy_anywhere 0",
+            "mp_give_player_c4 0",
+            "mp_damage_scale_t_body 0",
+            "mp_damage_scale_t_head 0",
+            "mp_damage_scale_ct_body 0",
+            "mp_damage_scale_ct_head 0"
+        ],
+        "offExecCmds": [
+            "mp_solid_teammates 2",
+            "sv_holiday_mode 1",
+            "sv_party_mode 1",
+            "mp_autoteambalance 1",
+            "mp_humanteam any",
+            "sv_disable_radar 0",
+            "sv_ignoregrenaderadio 0",
+            "mp_buytime 1",
+            "mp_free_armor 2",
+            "mp_buy_anywhere 1",
+            "mp_give_player_c4 1",
+            "mp_damage_scale_t_body 1",
+            "mp_damage_scale_t_head 1",
+            "mp_damage_scale_ct_body 1",
+            "mp_damage_scale_ct_head 1"
+        ]
+    },
+    "Map Voting": {
+        "description": "Toggles map voting at the end of matches.",
+        "onExecCmds": [
+            "sv_allow_votes 1",
+            "mp_endmatch_votenextmap 1",
+            "mp_match_end_changelevel 1",
+            "mp_match_end_restart 1",
+            "mp_endmatch_votenextleveltime 10",
+            "mp_endmatch_votenextmap_keepcurrent 1"
+        ],
+        "offExecCmds": [
+            "sv_allow_votes 0",
+            "mp_endmatch_votenextmap 0",
+            "mp_match_end_changelevel 0",
+            "mp_match_end_restart 0",
+            "mp_endmatch_votenextleveltime 10",
+            "mp_endmatch_votenextmap_keepcurrent 0"
+        ]
+    },
+    "Weapon Dropping": {
+        "description": "Toggles whether players can drop weapons.",
+        "onExecCmds": [
+            "mp_death_drop_c4 1",
+            "mp_death_drop_defuser 1",
+            "mp_death_drop_grenade 1",
+            "mp_death_drop_gun 1",
+            "mp_drop_knife_enable 0",
+            "mp_weapons_allow_map_placed 1",
+            "mp_disconnect_kills_players 1"
+        ],
+        "offExecCmds": [
+            "mp_death_drop_c4 0",
+            "mp_death_drop_defuser 0",
+            "mp_death_drop_grenade 0",
+            "mp_death_drop_gun 0",
+            "mp_drop_knife_enable 0",
+            "mp_weapons_allow_map_placed 0",
+            "mp_disconnect_kills_players 1"
+        ]
+    }
 }

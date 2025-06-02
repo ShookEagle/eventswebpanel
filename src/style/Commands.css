@@ -1,0 +1,11 @@
+.commands-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.commands-table th,
+.commands-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #333;
+}

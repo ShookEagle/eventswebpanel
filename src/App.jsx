@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar.jsx';
 import { useAuth } from './context/AuthContext';
 import MapsPage from "./pages/Maps.jsx";
 import ModesPage from "./pages/Modes.jsx";
+import CommandsPage from "./pages/Commands.jsx";
 
 function App() {
     const { user } = useAuth();
@@ -34,6 +35,7 @@ function App() {
                     <Route path="/login" element={<Navigate to="/" />} />
                     <Route path="/maps" element={<MapsPage />} />
                     <Route path="/modes" element={<ModesPage />} />
+                    <Route path="/commands" element={<CommandsPage />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
             </div>

@@ -1,0 +1,12 @@
+{
+  "Autobhop": {
+    "description": "Enables bunny hopping and removes stamina penalties.",
+    "onExecCmds": ["sv_autobunnyhopping 1", "sv_staminajumpcost 0" ],
+    "offExecCmds": ["sv_autobunnyhopping 0", "sv_staminajumpcost 0" ]
+  },
+  "Test1": {
+    "description": "Test for dev purposes",
+    "onExecCmds": ["echo test_on"],
+    "offExec": ["echo test_off"]
+  }
+}

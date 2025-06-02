@@ -1,5 +1,5 @@
 import '../style/Sidebar.css';
-import { Home, Users, Settings, LogOut, MapPlus, Gamepad2  } from 'lucide-react';
+import { Home, Users, Settings, LogOut, MapPlus, Gamepad2, SlidersVertical } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {useConfirmModal} from "../context/ConfirmModalContext.jsx";
@@ -9,6 +9,7 @@ const navItems = [
     { name: 'Users', icon: <Users />, href: '/players' },
     { name: 'Modes', icon: <Gamepad2 />, href: '/modes' },
     { name: 'Maps', icon: <MapPlus />, href: '/maps' },
+    { name: 'Commands', icon: <SlidersVertical />, href: '/commands' },
     { name: 'Settings', icon: <Settings />, href: '/' },
 ];
 

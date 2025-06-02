@@ -5,6 +5,9 @@ require_once('SteamOpenID.php');
 use xPaw\Steam\SteamOpenID;
 
 session_start();
+header('Access-Control-Allow-Origin: http://localhost:5173'); // Allow React dev server
+header('Access-Control-Allow-Credentials: true'); // Allow cookies (PHPSESSID)
+header('Content-Type: application/json');
 
 $scheme = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
 $host = $_SERVER['HTTP_HOST'];

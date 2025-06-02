@@ -1,5 +1,8 @@
 <?php
 session_start();
+header('Access-Control-Allow-Origin: http://localhost:5173'); // Allow React dev server
+header('Access-Control-Allow-Credentials: true'); // Allow cookies (PHPSESSID)
+header('Content-Type: application/json');
 
 // Destroy all session data
 $_SESSION = [];

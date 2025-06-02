@@ -1,8 +1,11 @@
-.maps-table {
+.maps-table,
+.maps-table.modal {
     width: 100%;
     border-collapse: collapse;
 }
 
+.maps-table.modal th,
+.maps-table.modal td,
 .maps-table th,
 .maps-table td {
     text-align: left;
@@ -20,6 +23,29 @@
 .maps-table td:nth-child(3),
 .maps-table th:nth-child(3) {
     justify-content: end;
+}
+
+.maps-table.modal td:first-child,
+.maps-table.modal th:first-child {
+    white-space: nowrap;
+    max-width: 30px;
+}
+
+.maps-table.modal td:nth-child(2),
+.maps-table.modal th:nth-child(2) {
+    white-space: nowrap;
+    width: 15rem;
+    max-width: 200px;
+}
+
+.maps-table.modal td:last-child,
+.maps-table.modal th:last-child {
+    justify-content: end;
+}
+
+.action-button:hover {
+    filter: brightness(0.9);
+    transition: filter 0.2s ease;
 }
 
 .action-button.delete {

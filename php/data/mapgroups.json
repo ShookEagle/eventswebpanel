@@ -656,7 +656,8 @@
     "Course": [
         {
             "name": "mg_100traps",
-            "workshopId": "3198747928"
+            "workshopId": "3198747928",
+            "chosen": false
         },
         {
             "name": "mg_savetheisland",
@@ -1182,7 +1183,8 @@
         },
         {
             "name": "bhop_drainage",
-            "workshopId": "3172855488"
+            "workshopId": "3172855488",
+            "chosen": false
         },
         {
             "name": "bhop_dunedash",
@@ -1222,7 +1224,8 @@
         },
         {
             "name": "bhop_masyunya",
-            "workshopId": "3097960903"
+            "workshopId": "3097960903",
+            "chosen": false
         },
         {
             "name": "bhop_vaporwave",

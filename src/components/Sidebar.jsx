@@ -1,23 +1,35 @@
 import '../style/Sidebar.css';
-import { Home, Users, Settings, LogOut, MapPlus  } from 'lucide-react';
+import { Home, Users, Settings, LogOut, MapPlus, Gamepad2  } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import {useConfirmModal} from "../context/ConfirmModalContext.jsx";
 
 const navItems = [
     { name: 'Home', icon: <Home />, href: '/' },
     { name: 'Users', icon: <Users />, href: '/players' },
+    { name: 'Modes', icon: <Gamepad2 />, href: '/modes' },
     { name: 'Maps', icon: <MapPlus />, href: '/maps' },
     { name: 'Settings', icon: <Settings />, href: '/' },
 ];
 
 export default function Sidebar() {
     const { setUser } = useAuth();
+    const { confirm } = useConfirmModal();
 
     function handleLogout() {
-        fetch(`${import.meta.env.VITE_API_URL}/logout.php`, {
-            credentials: 'include',
-        }).then(() => {
-            setUser({loggedIn: false});
+        confirm({
+            title: 'Logout',
+            content: 'Are you sure you want to logout?',
+            onConfirm: () => {
+                fetch(`${import.meta.env.VITE_API_URL}/logout.php`, {
+                    credentials: 'include',
+                }).then(() => {
+                    setUser({loggedIn: false});
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 2000)
+                })
+            }
         })
     }
 
@@ -32,7 +44,7 @@ export default function Sidebar() {
                 ))}
             </nav>
             <img src={"/shook_pfp.png"} alt="Logged-In as ShookEagle" className="user-icon" />
-            <a href="/login" className="logout" title="Logout">
+            <a className="logout" title="Logout">
                 <LogOut onClick={handleLogout}/>
             </a>
         </div>

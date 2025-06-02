@@ -53,7 +53,8 @@ export default function MapsPage() {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mapGroups)
-        }).then(() => showToast("Map Groups successfully Saved", "success"));
+        }).then(() => showToast("Map Groups successfully Saved", "success"))
+        .catch(() => showToast("Failed to save Map Groups", "error"));
     };
 
     const saveChanges = (groups = mapGroups) => {
@@ -61,7 +62,8 @@ export default function MapsPage() {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(groups)
-        }).then(() => showToast("Map Groups successfully Saved", "success"));
+        }).then(() => showToast("Map Groups successfully Saved", "success"))
+        .catch(() => showToast("Failed to save Map Groups", "error"));
     };
 
 
@@ -124,6 +126,9 @@ export default function MapsPage() {
                                 </thead>
                                 <tbody>
                                 {Object.entries(mapGroups)
+                                    .filter(([groupName]) =>
+                                        groupName.toLowerCase().includes(searchTerm.toLowerCase())
+                                    )
                                     .sort(([a], [b]) => a.localeCompare(b))
                                     .map(([groupName, maps]) => (
                                     <tr key={groupName}>

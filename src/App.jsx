@@ -5,6 +5,7 @@ import LoginPage from './pages/Login.jsx';
 import Sidebar from './components/Sidebar.jsx';
 import { useAuth } from './context/AuthContext';
 import MapsPage from "./pages/Maps.jsx";
+import ModesPage from "./pages/Modes.jsx";
 
 function App() {
     const { user } = useAuth();
@@ -32,6 +33,7 @@ function App() {
                     <Route path="/players" element={<PlayersPage />} />
                     <Route path="/login" element={<Navigate to="/" />} />
                     <Route path="/maps" element={<MapsPage />} />
+                    <Route path="/modes" element={<ModesPage />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
             </div>

@@ -18,13 +18,46 @@
     border-radius: 12px;
     color: white;
     width: 400px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
     text-align: center;
 }
 
 .modal-content {
+    overflow-y: auto;
+    max-height: 60vh;
     margin-top: 16px;
 }
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.tall-modal {
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header,
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-content.scrollable-maps {
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 8px 0;
+}
+
 
 .modal-actions {
     margin-top: 24px;
@@ -40,6 +73,11 @@
     font-weight: bold;
     cursor: pointer;
     margin: 0.2rem;
+}
+
+.modal-button:hover {
+    filter: brightness(0.9);
+    transition: filter 0.2s ease;
 }
 
 .modal-button.cancel {
@@ -70,3 +108,25 @@
     background-color: #2e2e45;
 }
 
+.delete-icon {
+    background: none;
+    border: none;
+    color: #ff6666;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+}
+.delete-icon:hover {
+    color: #ff3333;
+    filter: brightness(0.9);
+    transition: filter 0.2s ease;
+}
+
+.grip-handle svg {
+    opacity: 0.6;
+}
+.grip-handle:hover svg {
+    opacity: 1;
+    filter: brightness(0.9);
+    transition: filter 0.2s ease;
+}

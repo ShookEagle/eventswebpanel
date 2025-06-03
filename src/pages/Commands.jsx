@@ -4,7 +4,7 @@ import "../style/Commands.css"
 import { useToast } from '../context/ToastContext';
 import { useConfirmModal } from '../context/ConfirmModalContext';
 import { usePromptModal } from '../context/PromptModalContext.jsx';
-import EditCommandPackModal from "../components/EditCommandPackModal.jsx";
+import EditCommandPackModal from "../components/Modals/EditCommandPackModal.jsx";
 
 export default function CommandsPage() {
     const [commandPacks, setCommandPacks] = useState({});

@@ -1,0 +1,2063 @@
+{
+    "Default": {
+        "mapGroup": "Active",
+        "description": "No Event Loaded",
+        "tags": "",
+        "plugins": [
+            ""
+        ],
+        "commandPacks": [
+            "All Talk",
+            "Weapon Dropping"
+        ],
+        "settings": {
+            "generic": {
+                "base_config": "casual",
+                "game_type": 3,
+                "game_mode": 0
+            },
+            "roundflow": {
+                "mp_maxrounds": 15,
+                "mp_roundtime": 3,
+                "mp_warmuptime": 90,
+                "mp_freezetime": 5,
+                "mp_buytime": 45,
+                "mp_buy_anywhere": 0,
+                "mp_ignore_round_win_conditions": 0,
+                "mp_round_restart_delay": 10,
+                "mp_win_panel_display_time": 3,
+                "mp_respawn_on_death_t": 0,
+                "mp_respawn_on_death_ct": 0,
+                "mp_respawn_immunitytime": 0,
+                "mp_halftime": 0
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": 0,
+                "bot_autodifficulty_threshold_low": -2,
+                "bot_chatter": "normal",
+                "bot_defer_to_human_goals": 0,
+                "bot_defer_to_human_items": 1,
+                "bot_difficulty": 1,
+                "bot_quota_mode": "fill"
+            },
+            "movement": {
+                "sv_enablebunnyhopping": 0,
+                "sv_accelerate": 5.5,
+                "sv_airaccelerate": 12,
+                "sv_friction": 5.2,
+                "sv_gravity": 800,
+                "sv_maxspeed": 320
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": 1,
+                "mp_buy_anywhere": 0,
+                "mp_buy_during_immunity": 0,
+                "mp_death_drop_defuser": 1,
+                "mp_death_drop_grenade": 2,
+                "mp_death_drop_gun": 1,
+                "mp_ct_default_melee": "weapon_knife",
+                "mp_ct_default_secondary": "weapon_hkp2000",
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": "weapon_knife",
+                "mp_t_default_secondary": "weapon_glock",
+                "mp_t_default_primary": null,
+                "mp_free_armor": 2,
+                "mp_weapons_allow_zeus": 2,
+                "mp_weapons_allow_typecount": 2,
+                "mp_damage_scale_t_body": 1,
+                "mp_damage_scale_t_head": 1,
+                "mp_damage_scale_ct_body": 1,
+                "mp_damage_scale_ct_head": 1
+            },
+            "players": {
+                "maxPlayers": 24,
+                "mp_autoteambalance": 1,
+                "mp_spectators_max": 2,
+                "mp_limitteams": 15,
+                "mp_autokick": 0,
+                "mp_friendlyfire": 1,
+                "mp_solid_teammates": 2,
+                "mp_teammates_are_enemies": 0,
+                "mp_humanteam": "any"
+            },
+            "communication": {
+                "sv_alltalk": 0,
+                "sv_full_alltalk": 1,
+                "sv_deadtalk": 0,
+                "sv_talk_enemy_dead": 1,
+                "sv_talk_enemy_living": 0,
+                "sv_allchat": 1,
+                "sv_spec_hear": 1,
+                "sv_voiceenable": null
+            },
+            "customCommands": [
+                ""
+            ]
+        }
+    },
+    "100 Traps": {
+        "description": "Navigate an obstacle course filled with 100 challenging level.",
+        "mapGroup": "Course",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [
+            "All Talk",
+            "Movement Unlocker"
+        ],
+        "settings": {
+            "generic": {
+                "base_config": "custom",
+                "game_type": 3,
+                "game_mode": 0
+            },
+            "roundflow": {
+                "mp_maxrounds": 99,
+                "mp_roundtime": 9999,
+                "mp_warmuptime": 15,
+                "mp_freezetime": 0,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": 3,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": [
+                "mp_team_intro_time 0"
+            ]
+        }
+    },
+    "1v1": {
+        "description": "Face off in quick, round-based duels designed to test individual skill and aim.",
+        "mapGroup": "1v1",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [
+            "All Talk"
+        ],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Arms Race": {
+        "description": "Progress through a weapon ladder by securing kills in a free-for-all battle.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "AWP": {
+        "description": "An AWP-only mode.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Bhop": {
+        "description": "Bunny hop through maps requiring speed, timing, and movement mastery.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Combat Surf": {
+        "description": "Surf maps with weapons, blending movement skills and combat.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Course": {
+        "description": "Complete jump and movement-based challenges to reach the end.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Deathmatch": {
+        "description": "its deathmatch bru",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Deathrun": {
+        "description": "Runners dodge traps while one player (the \u201cDeath\u201d) activates them.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Executes": {
+        "description": "Practice or simulate bombsite takes with utility and team coordination.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Gun Game": {
+        "description": "Climb through a tiered weapon list with each kill, ending with a knife.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Hide and Seek": {
+        "description": "One team hides while the other hunts them down with limited time.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "KZ": {
+        "description": "Climb timed jump maps using precision movement and optimal strafing.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Minigames": {
+        "description": "A rotation of quick, fun, and often chaotic bite-sized challenges.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Mirror Madness": {
+        "description": "Competitive style game mode but with mirrored maps.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "One In the Chamber": {
+        "description": "One bullet per life \u2014 miss and you're vulnerable until a kill.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Only Up": {
+        "description": "Ascend a punishing vertical course \u2014 one mistake, and it\u2019s back to start.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Retakes": {
+        "description": "Practice retaking bombsites in fast-paced, scenario-driven rounds.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "ScoutzKnives": {
+        "description": "High-flying low-gravity battles with scouts and knives only.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Scrims": {
+        "description": "Structured 5v5 matches for practice, coordination, and competition.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Surf": {
+        "description": "Glide along angled ramps using movement mechanics to reach the end.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    },
+    "Tag": {
+        "description": "Classic playground-style tag in custom CS2 maps \u2014 don\u2019t get caught.",
+        "mapGroup": "Active",
+        "tags": "",
+        "plugins": [],
+        "commandPacks": [],
+        "settings": {
+            "generic": {
+                "base_config": null,
+                "game_type": null,
+                "game_mode": null
+            },
+            "roundflow": {
+                "mp_maxrounds": null,
+                "mp_roundtime": null,
+                "mp_warmuptime": null,
+                "mp_freezetime": null,
+                "mp_buytime": null,
+                "mp_buy_anywhere": null,
+                "mp_ignore_round_win_conditions": null,
+                "mp_round_restart_delay": null,
+                "mp_win_panel_display_time": null,
+                "mp_respawn_on_death_t": null,
+                "mp_respawn_on_death_ct": null,
+                "mp_respawn_immunitytime": null,
+                "mp_halftime": null
+            },
+            "bots": {
+                "bot_autodifficulty_threshold_high": null,
+                "bot_autodifficulty_threshold_low": null,
+                "bot_chatter": null,
+                "bot_defer_to_human_goals": null,
+                "bot_defer_to_human_items": null,
+                "bot_difficulty": null,
+                "bot_quota_mode": null
+            },
+            "movement": {
+                "sv_enablebunnyhopping": null,
+                "sv_accelerate": null,
+                "sv_airaccelerate": null,
+                "sv_friction": null,
+                "sv_gravity": null,
+                "sv_maxspeed": null
+            },
+            "weapons": {
+                "mp_weapons_allow_map_placed": null,
+                "mp_buy_anywhere": null,
+                "mp_buy_during_immunity": null,
+                "mp_death_drop_defuser": null,
+                "mp_death_drop_grenade": null,
+                "mp_death_drop_gun": null,
+                "mp_ct_default_melee": null,
+                "mp_ct_default_secondary": null,
+                "mp_ct_default_primary": null,
+                "mp_t_default_melee": null,
+                "mp_t_default_secondary": null,
+                "mp_t_default_primary": null,
+                "mp_free_armor": null,
+                "mp_weapons_allow_zeus": null,
+                "mp_weapons_allow_typecount": null,
+                "mp_damage_scale_t_body": null,
+                "mp_damage_scale_t_head": null,
+                "mp_damage_scale_ct_body": null,
+                "mp_damage_scale_ct_head": null
+            },
+            "players": {
+                "maxPlayers": null,
+                "mp_autoteambalance": null,
+                "mp_spectators_max": null,
+                "mp_limitteams": null,
+                "mp_autokick": null,
+                "mp_friendlyfire": null,
+                "mp_solid_teammates": null,
+                "mp_teammates_are_enemies": null,
+                "mp_humanteam": null
+            },
+            "communication": {
+                "sv_alltalk": null,
+                "sv_full_alltalk": null,
+                "sv_deadtalk": null,
+                "sv_talk_enemy_dead": null,
+                "sv_talk_enemy_living": null,
+                "sv_allchat": null,
+                "sv_spec_hear": null,
+                "sv_voiceenable": null
+            },
+            "customCommands": []
+        }
+    }
+}

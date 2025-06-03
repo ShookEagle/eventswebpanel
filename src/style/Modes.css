@@ -1,0 +1,25 @@
+.modes-table,
+.modes-table.modal {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.modes-table.modal th,
+.modes-table.modal td,
+.modes-table th,
+.modes-table td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.modes-table th:first-child,
+.modes-table td:first-child {
+    white-space: nowrap;
+    width: 15rem;
+    max-width: 200px;
+}
+
+.modes-table th:last-child,
+.modes-table td:last-child {
+}

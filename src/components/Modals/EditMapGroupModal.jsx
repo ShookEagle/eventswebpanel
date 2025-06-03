@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ReactSortable } from 'react-sortablejs';
 import { GripVertical, Trash2 } from 'lucide-react';
-import '../style/Modal.css';
+import '../../style/Modal.css';
 
 export default function EditMapGroupModal({ isOpen, groupName, maps, onSave, onCancel }) {
     const [localMaps, setLocalMaps] = useState([]);

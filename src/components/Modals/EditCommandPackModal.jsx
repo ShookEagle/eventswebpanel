@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../style/Modal.css';
-import '../style/Commands.css';
+import '../../style/Modal.css';
+import '../../style/Commands.css';
 
 export default function EditCommandPackModal({ isOpen, packName, packData, onSave, onCancel }) {
     const [name, setName] = useState('');

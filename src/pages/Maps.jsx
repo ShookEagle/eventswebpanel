@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar.jsx";
 import { useConfirmModal } from '../context/ConfirmModalContext';
 import { usePromptModal } from '../context/PromptModalContext.jsx';
 import { useToast } from '../context/ToastContext';
-import EditMapGroupModal from '../components/EditMapGroupModal.jsx';
+import EditMapGroupModal from '../components/Modals/EditMapGroupModal.jsx';
 
 export default function MapsPage() {
     const [mapGroups, setMapGroups] = useState({});
@@ -116,7 +116,7 @@ export default function MapsPage() {
                         </div>
 
                         <div className="list-box">
-                            <table className="maps-table">
+                            <table className="modes-table">
                                 <thead>
                                 <tr>
                                     <th>Name</th>

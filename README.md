@@ -14,10 +14,10 @@ Supports Steam login, game mode control, settings overrides, and admin tools.
 - [ ] Quick actions: Change mode, restart round, etc.
 
 ### 🎮 Game Modes
-- [ ] List available modes (e.g., Hide and Seek, Prophunt 👀)
+- [x] List available modes (e.g., Hide and Seek, Prophunt 👀)
 - [ ] Activate selected mode
-- [ ] Show mode-specific settings
-- [ ] [Manager only] Add/edit modes and descriptions
+- [x] Show mode-specific settings
+- [x] [Manager only] Add/edit modes and descriptions
 
 ### 🛠 Live Settings
 - [ ] Toggle runtime settings:

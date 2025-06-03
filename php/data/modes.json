@@ -282,7 +282,7 @@
     },
     "Arms Race": {
         "description": "Progress through a weapon ladder by securing kills in a free-for-all battle.",
-        "mapGroup": "Active",
+        "mapGroup": "Deathmatch",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -371,7 +371,7 @@
     },
     "AWP": {
         "description": "An AWP-only mode.",
-        "mapGroup": "Active",
+        "mapGroup": "Awp Only",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -460,7 +460,7 @@
     },
     "Bhop": {
         "description": "Bunny hop through maps requiring speed, timing, and movement mastery.",
-        "mapGroup": "Active",
+        "mapGroup": "Bhop",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -549,7 +549,7 @@
     },
     "Combat Surf": {
         "description": "Surf maps with weapons, blending movement skills and combat.",
-        "mapGroup": "Active",
+        "mapGroup": "Combat Surf",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -638,7 +638,7 @@
     },
     "Course": {
         "description": "Complete jump and movement-based challenges to reach the end.",
-        "mapGroup": "Active",
+        "mapGroup": "Course",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -727,7 +727,7 @@
     },
     "Deathmatch": {
         "description": "its deathmatch bru",
-        "mapGroup": "Active",
+        "mapGroup": "Deathmatch",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -816,7 +816,7 @@
     },
     "Deathrun": {
         "description": "Runners dodge traps while one player (the \u201cDeath\u201d) activates them.",
-        "mapGroup": "Active",
+        "mapGroup": "Deathrun",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -905,7 +905,7 @@
     },
     "Executes": {
         "description": "Practice or simulate bombsite takes with utility and team coordination.",
-        "mapGroup": "Active",
+        "mapGroup": "Competitive",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -994,7 +994,7 @@
     },
     "Gun Game": {
         "description": "Climb through a tiered weapon list with each kill, ending with a knife.",
-        "mapGroup": "Active",
+        "mapGroup": "Gun Game",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1083,7 +1083,7 @@
     },
     "Hide and Seek": {
         "description": "One team hides while the other hunts them down with limited time.",
-        "mapGroup": "Active",
+        "mapGroup": "Hide and Seek",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1172,7 +1172,7 @@
     },
     "KZ": {
         "description": "Climb timed jump maps using precision movement and optimal strafing.",
-        "mapGroup": "Active",
+        "mapGroup": "Kreedz",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1261,7 +1261,7 @@
     },
     "Minigames": {
         "description": "A rotation of quick, fun, and often chaotic bite-sized challenges.",
-        "mapGroup": "Active",
+        "mapGroup": "Minigames",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1350,7 +1350,7 @@
     },
     "Mirror Madness": {
         "description": "Competitive style game mode but with mirrored maps.",
-        "mapGroup": "Active",
+        "mapGroup": "Mirror Maps",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1439,7 +1439,7 @@
     },
     "One In the Chamber": {
         "description": "One bullet per life \u2014 miss and you're vulnerable until a kill.",
-        "mapGroup": "Active",
+        "mapGroup": "Deathmatch",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1528,7 +1528,7 @@
     },
     "Only Up": {
         "description": "Ascend a punishing vertical course \u2014 one mistake, and it\u2019s back to start.",
-        "mapGroup": "Active",
+        "mapGroup": "Kreedz",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1617,7 +1617,7 @@
     },
     "Retakes": {
         "description": "Practice retaking bombsites in fast-paced, scenario-driven rounds.",
-        "mapGroup": "Active",
+        "mapGroup": "Competitive",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1706,7 +1706,7 @@
     },
     "ScoutzKnives": {
         "description": "High-flying low-gravity battles with scouts and knives only.",
-        "mapGroup": "Active",
+        "mapGroup": "Scoutz Knivez",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1795,7 +1795,7 @@
     },
     "Scrims": {
         "description": "Structured 5v5 matches for practice, coordination, and competition.",
-        "mapGroup": "Active",
+        "mapGroup": "Competitive",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1884,7 +1884,7 @@
     },
     "Surf": {
         "description": "Glide along angled ramps using movement mechanics to reach the end.",
-        "mapGroup": "Active",
+        "mapGroup": "Surf",
         "tags": "",
         "plugins": [],
         "commandPacks": [],
@@ -1973,7 +1973,7 @@
     },
     "Tag": {
         "description": "Classic playground-style tag in custom CS2 maps \u2014 don\u2019t get caught.",
-        "mapGroup": "Active",
+        "mapGroup": "Tag",
         "tags": "",
         "plugins": [],
         "commandPacks": [],

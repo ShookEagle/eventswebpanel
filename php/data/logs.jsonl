@@ -1,0 +1,3 @@
+{"timestamp":1718123456,"type":"INFO","message":"Mode changed to 1v1","meta":{"by":"console"}}
+{"timestamp":1718123470,"type":"WARN","message":"Player tried to join unverified","meta":{"steamId":"7656..."}}
+{"timestamp":1718123500,"type":"KICK","message":"Player kicked","meta":{"reason":"AFK"}}

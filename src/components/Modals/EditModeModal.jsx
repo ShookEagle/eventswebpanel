@@ -14,6 +14,7 @@ export default function EditModeModal({ isOpen, modeName, modeData, onSave, onCa
     const [settings, setSettings] = useState({});
     const [mapGroupOptions, setMapGroupOptions] = useState([]);
     const [availableCommandPacks, setAvailableCommandPacks] = useState([]);
+    const [customCommandsRaw, setCustomCommandsRaw] = useState('');
 
     useEffect(() => {
         if (isOpen) {
@@ -50,7 +51,19 @@ export default function EditModeModal({ isOpen, modeName, modeData, onSave, onCa
         return () => document.body.classList.remove('modal-open');
     }, [isOpen]);
 
+    useEffect(() => {
+        if (isOpen && settings?.customCommands)
+            setCustomCommandsRaw(settings.customCommands.join('\n'));
+    }, [isOpen, settings]);
+
     if (!isOpen) return null;
+
+    const parseCustomCommands = () => {
+        return customCommandsRaw
+            .split(/[\n;]/)
+            .map(cmd => cmd.trim())
+            .filter(Boolean);
+    };
 
     const updateSettingField = (section, key, newValue) => {
         const updated = { ...settings };
@@ -72,7 +85,10 @@ export default function EditModeModal({ isOpen, modeName, modeData, onSave, onCa
             tags: tags.trim(),
             plugins,
             commandPacks,
-            settings
+            settings: {
+                ...settings,
+                customCommands: parseCustomCommands()
+            }
         };
         onSave(updated);
     };
@@ -136,14 +152,8 @@ export default function EditModeModal({ isOpen, modeName, modeData, onSave, onCa
                                         <textarea
                                             id="customCommands"
                                             className="modal-textarea"
-                                            value={fields.join('\n')}
-                                            onChange={e => {
-                                                const cmds = e.target.value
-                                                    .split(/[\n;]/)
-                                                    .map(s => s.trim())
-                                                    .filter(Boolean);
-                                                updateSettingField('customCommands', null, cmds);
-                                            }}
+                                            value={customCommandsRaw}
+                                            onChange={(e) => setCustomCommandsRaw(e.target.value)}
                                             style={{ minHeight: '200px', resize: 'vertical' }}
                                         />
                                     </div>

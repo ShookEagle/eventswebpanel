@@ -11,14 +11,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    header('Content-Type: application/json');
-    echo file_get_contents($path);
+    if (file_exists($path)) {
+        echo file_get_contents($path);
+    } else {
+        echo json_encode([
+            'mode' => 'Default',
+            'map' => 'Active',
+            'updatedAt' => time()
+        ]);
+    }
     exit;
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $raw = file_get_contents('php://input');
-    file_put_contents($path, $raw);
+    $data = json_decode($raw, true);
+    if ($data === null) {
+        http_response_code(400);
+        echo json_encode(['error' => 'Invalid JSON']);
+        exit;
+    }
+
+    file_put_contents($path, json_encode($data, JSON_PRETTY_PRINT));
     echo json_encode(['status' => 'ok']);
     exit;
 }

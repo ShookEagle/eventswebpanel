@@ -1,3 +1,4 @@
-{"timestamp":1718123456,"type":"INFO","message":"Mode changed to 1v1","meta":{"by":"console"}}
-{"timestamp":1718123470,"type":"WARN","message":"Player tried to join unverified","meta":{"steamId":"7656..."}}
-{"timestamp":1718123500,"type":"KICK","message":"Player kicked","meta":{"reason":"AFK"}}
+{"Timestamp":1718123456,"Type":"INFO","Message":"Mode changed to 1v1","Meta":{"by":"console"}}
+{"Timestamp":1718123470,"Type":"WARN","Message":"Player tried to join unverified","Meta":{"steamId":"7656..."}}
+{"Timestamp":1718123500,"Type":"KICK","Message":"Player kicked","Meta":{"reason":"AFK"}}
+{"Timestamp":1749426636,"Type":"ACTION","Message":"ShookEagle changed the mode to AWP","Meta":{"none":"none"}}

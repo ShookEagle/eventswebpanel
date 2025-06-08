@@ -2,7 +2,7 @@
 $path = __DIR__ . '/../data/logs.jsonl';
 
 header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: GET, OPTIONS");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
@@ -20,7 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $raw = file_get_contents('php://input');
     $entry = json_decode($raw, true);
-    $entry['timestamp'] = time();
+    if (!isset($entry['Timestamp'])) {
+        $entry['Timestamp'] = time();
+    }
     file_put_contents($path, json_encode($entry) . "\n", FILE_APPEND);
     echo json_encode(['status' => 'ok']);
     exit;

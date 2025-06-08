@@ -1,18 +1,28 @@
-import React from 'react'
-import "../../style/LogBox.css"
+import { useEffect, useState } from 'react';
+import "../../style/LogBox.css";
 
 export default function LogBox() {
+    const [logs, setLogs] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:8000/api/logs.php')
+            .then(res => res.json())
+            .then(data => setLogs(data))
+            .catch(err => console.error('Failed to load logs:', err));
+    }, []);
+
     return (
         <div className="dashboard-log-panel">
-            <h2 className="log-title">Logs (Impl)</h2>
+            <h2 className="log-title">Logs</h2>
             <div className="log-box">
                 <ul>
-                    <li>[Map] de_inferno ➜ de_nuke</li>
-                    <li>[Mode] PropHunt 👀 Enabled</li>
-                    <li>[Plugin] HideAndSeek disabled</li>
-                    <li>[Admin] Started “1v1 Multi”</li>
+                    {logs.map((log, i) => (
+                        <li key={i}>
+                            <b>[{log.Type}]</b> {log.Message}
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>
-    )
+    );
 }

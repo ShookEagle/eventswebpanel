@@ -18,14 +18,52 @@ $openid = new SteamOpenID($returnTo);
 
 try {
     $steamId = $openid->Validate();
-
     $_SESSION['steamid'] = $steamId;
-    $_SESSION['username'] = 'Fetching...'; // Optional: fetch from Web API later
-    $_SESSION['avatar'] = '';
+
+    // MAUL check
+    /*$maulApiKey = getenv("APP_MAUL_APIKEY");
+    $steamEncoded = strtr(base64_encode($steamId), '+/', '-_');
+    $url = "https://maul.edgegamers.com/api/info/{$steamEncoded}";
+
+    $context = stream_context_create([
+        "http" => [
+            "header" => [
+                "AUTHORIZATION: $maulApiKey",
+                "REQUEST_IP: " . ($_SERVER['SERVER_ADDR'] ?? '127.0.0.1'),
+                "REQUEST_PORT: " . ($_SERVER['SERVER_PORT'] ?? '80')
+            ]
+        ]
+    ]);
+
+    $response = file_get_contents($url, false, $context);
+    $maulData = json_decode($response, true);*/
+
+    // Basic defaults
+    $_SESSION['username'] = $maulData['Name'] ?? 'Unknown';
+    $_SESSION['avatar'] = ''; // optional
     $_SESSION['roles'] = [];
 
-    header("Location: http://localhost:5173"); // back to React
+    /*$rank = $maulData['PrimaryRank'] ?? 0;
+    $groups = $maulData['Groups'] ?? [];
+
+    $hasEventGroup = false;
+    foreach ($groups as $group) {
+        if (isset($group['GroupName']) && stripos($group['GroupName'], 'event coordinator') !== false) {
+            $hasEventGroup = true;
+            break;
+        }
+    }
+
+    $isManagerPlus = $rank >= 5;
+
+    $_SESSION['roles'] = [
+        'manager' => $isManagerPlus,
+        'event_coordinator' => $hasEventGroup
+    ];*/
+
+    header("Location: http://localhost:5173"); // send user back to UI
     exit;
+
 } catch (Exception $e) {
     echo "Login failed: " . $e->getMessage();
 }

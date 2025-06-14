@@ -3,7 +3,7 @@ import '../style/SteamLoginButton.css';
 
 function SteamLoginButton() {
     const handleLogin = () => {
-        window.location.href = "http://localhost:8000/php/login.php"; // change to your backend Steam login route
+        window.location.href = `${import.meta.env.VITE_API_URL}/login.php`;
     };
 
     return (

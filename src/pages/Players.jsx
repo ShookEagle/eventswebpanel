@@ -1,21 +1,19 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import "../style/Dashboard.css";
 import "../style/Players.css";
 import PlayersListAll from "../components/Players/PlayersListAll.jsx";
 import Sidebar from "../components/Sidebar.jsx";
 
-const fakePlayers = [
-    { id: 1, roleType: "role-ego", role: "=(eGO)=", name: 'ShookEagle', steamId: 'STEAM_1:0:12345', team: 'CT' },
-    { id: 2, roleType: "role-manager", role: "Manager", name: 'TeleTubby', steamId: 'STEAM_1:1:98765', team: 'T' },
-    { id: 3, roleType: "role-community-manager", role: "Community Manager", name: 'Blank_dvth', steamId: 'STEAM_1:1:11111', team: 'Spectator' },
-    { id: 4, roleType: "role-eg", role: "=(eG)=", name: 'Maryvale', steamId: 'STEAM_1:1:13579', team: 'CT' },
-    { id: 5, roleType: "role-e", role: "=(e)=", name: 'Nappin', steamId: 'STEAM_1:1:69420', team: 'T' },
-    { id: 6, roleType: "role-senior-manager", role: "Senior Manager", name: 'Buster', steamId: 'STEAM_1:1:LOSER', team: 'Spectator' },
-];
-
 export default function PlayersPage() {
     const [selected, setSelected] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
+    const [players, setPlayers] = useState({});
+
+    useEffect(() => {
+        fetch(`${import.meta.env.VITE_API_URL}api/players.php`)
+            .then(res => res.json())
+            .then(setPlayers);
+    }, []);
 
     const togglePlayer = (id) => {
         setSelected(prev =>
@@ -84,11 +82,11 @@ export default function PlayersPage() {
                         </div>
 
                         <PlayersListAll
-                            players={fakePlayers.filter(p =>
-                                p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                                p.steamId.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                                p.role.toLowerCase().includes(searchTerm.toLowerCase())
-                            )}
+                            players={players.filter(Object.entries(players).filter(([slot, p]) =>
+                                p.Name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                String(p.SteamId).toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                p.Rank.toLowerCase().includes(searchTerm.toLowerCase())
+                            ))}
                             selected={selected}
                             togglePlayer={togglePlayer}
                         />

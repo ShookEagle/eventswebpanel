@@ -22,7 +22,7 @@ export default function Sidebar() {
             title: 'Logout',
             content: 'Are you sure you want to logout?',
             onConfirm: () => {
-                fetch(`${import.meta.env.VITE_API_URL}/logout.php`, {
+                fetch(`${import.meta.env.VITE_API_URL}logout.php`, {
                     credentials: 'include',
                 }).then(() => {
                     setUser({loggedIn: false});
@@ -36,7 +36,7 @@ export default function Sidebar() {
 
     return (
         <div className="sidebar">
-            <img src="/ego_favicon.png" alt="Logo" className="logo" />
+            <img src="../../public/ego_favicon.png" alt="Logo" className="logo" />
             <nav className="nav">
                 {navItems.map((item) => (
                     <Link key={item.name} to={item.href} className="nav-item" title={item.name}>
@@ -44,7 +44,7 @@ export default function Sidebar() {
                     </Link>
                 ))}
             </nav>
-            <img src={"/shook_pfp.png"} alt="Logged-In as ShookEagle" className="user-icon" />
+            <img src={"../../public/shook_pfp.png"} alt="Logged-In as ShookEagle" className="user-icon" />
             <a className="logout" title="Logout">
                 <LogOut onClick={handleLogout}/>
             </a>

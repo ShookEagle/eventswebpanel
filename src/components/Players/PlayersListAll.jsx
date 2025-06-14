@@ -31,7 +31,7 @@ export default function PlayersListAll({ players, selected, togglePlayer }) {
                             </span>
                         </td>
                         <td>{player.name}</td>
-                        <td>{player.steamId}</td>
+                        <td>{player.SteamId}</td>
                         <td>{player.team}</td>
                         <td>
                             <button className="action-button kick">Kick</button>

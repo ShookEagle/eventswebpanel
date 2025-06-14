@@ -16,7 +16,7 @@ export default function MapsPage() {
     const { showToast } = useToast();
 
     useEffect(() => {
-        fetch('http://localhost:8000/api/mapgroups.php')
+        fetch(`${import.meta.env.VITE_API_URL}api/mapgroups.php`)
             .then(res => res.json())
             .then(setMapGroups);
     }, []);
@@ -49,7 +49,7 @@ export default function MapsPage() {
     };
 
     const saveAll = () => {
-        fetch('http://localhost:8000/api/mapgroups.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/mapgroups.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(mapGroups)
@@ -58,7 +58,7 @@ export default function MapsPage() {
     };
 
     const saveChanges = (groups = mapGroups) => {
-        fetch('http://localhost:8000/api/mapgroups.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/mapgroups.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(groups)

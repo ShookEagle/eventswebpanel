@@ -4,7 +4,7 @@ import "../style/Login.css"
 
 function LoginPage() {
     const handleSteamLogin = () => {
-        window.location.href = `${import.meta.env.VITE_API_URL}/login.php`;
+        window.location.href = `${import.meta.env.VITE_API_URL}login.php`;
     };
 
     return (

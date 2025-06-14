@@ -15,7 +15,7 @@ export default function CommandsPage() {
     const { prompt } = usePromptModal();
 
     useEffect(() => {
-        fetch('http://localhost:8000/api/commandpacks.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/commandpacks.php`, {
             credentials: 'include'
         })
             .then(res => res.json())
@@ -49,7 +49,7 @@ export default function CommandsPage() {
     };
 
     const saveAll = () => {
-        fetch('http://localhost:8000/api/commandpacks.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/commandpacks.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -60,7 +60,7 @@ export default function CommandsPage() {
     }
 
     const saveChanges = (updated = commandPacks) => {
-        fetch('http://localhost:8000/api/commandpacks.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/commandpacks.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',

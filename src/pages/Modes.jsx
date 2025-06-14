@@ -16,7 +16,7 @@ export default function ModesPage() {
     const { showToast } = useToast();
 
     useEffect(() => {
-        fetch('http://localhost:8000/api/modes.php')
+        fetch(`${import.meta.env.VITE_API_URL}api/modes.php`)
             .then(res => res.json())
             .then(setModes);
     }, []);
@@ -55,7 +55,7 @@ export default function ModesPage() {
         for (const [name, mode] of Object.entries(Modes)) {
             finalData[name] = cleanModeForSave(mode);
         }
-        fetch('http://localhost:8000/api/modes.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/modes.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(finalData)
@@ -68,7 +68,7 @@ export default function ModesPage() {
         for (const [name, mode] of Object.entries(newModes)) {
             finalData[name] = cleanModeForSave(mode);
         }
-        fetch('http://localhost:8000/api/modes.php', {
+        fetch(`${import.meta.env.VITE_API_URL}api/modes.php`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(finalData)

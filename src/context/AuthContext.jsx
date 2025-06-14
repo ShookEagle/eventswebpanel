@@ -7,7 +7,7 @@ export function AuthProvider({ children }) {
     const [user, setUser] = useState(null); // null = still loading
 
     useEffect(() => {
-        fetch(`${import.meta.env.VITE_API_URL}/check-login.php`, {
+        fetch(`${import.meta.env.VITE_API_URL}check-login.php`, {
             credentials: 'include',
         })
             .then(res => {

@@ -5,7 +5,7 @@ export default function LogBox() {
     const [logs, setLogs] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/api/logs.php')
+        fetch(`${import.meta.env.VITE_API_URL}api/logs.php`)
             .then(res => res.json())
             .then(data => setLogs(data))
             .catch(err => console.error('Failed to load logs:', err));
